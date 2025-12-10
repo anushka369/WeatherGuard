@@ -1,0 +1,220 @@
+.wallet-connect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+/* Error message styling */
+.wallet-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 6px;
+  color: #856404;
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.error-icon {
+  font-size: 18px;
+}
+
+.error-message {
+  flex: 1;
+}
+
+.switch-network-btn {
+  padding: 6px 12px;
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.switch-network-btn:hover {
+  background-color: #ffca2c;
+}
+
+/* Connect button styling */
+.connect-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connect-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.connect-btn:active {
+  transform: translateY(0);
+}
+
+.wallet-icon {
+  font-size: 20px;
+}
+
+/* Wallet info styling */
+.wallet-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.account-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.account-address,
+.account-balance {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.address-label,
+.balance-label {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.address-value {
+  color: #212529;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+}
+
+.balance-value {
+  color: #212529;
+  font-weight: 600;
+}
+
+/* Network warning button */
+.network-warning-btn {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.network-warning-btn:hover {
+  background-color: #c82333;
+}
+
+/* Disconnect button styling */
+.disconnect-btn {
+  padding: 8px 16px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.disconnect-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Install MetaMask message */
+.install-metamask {
+  padding: 12px 16px;
+  background-color: #e7f3ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.install-metamask p {
+  margin: 0 0 8px 0;
+  color: #004085;
+  font-size: 14px;
+}
+
+.install-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.install-link:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .wallet-connect {
+    align-items: stretch;
+  }
+
+  .account-info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .account-details {
+    width: 100%;
+  }
+
+  .network-warning-btn,
+  .disconnect-btn {
+    width: 100%;
+  }
+
+  .wallet-error {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .switch-network-btn {
+    width: 100%;
+  }
+}

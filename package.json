@@ -1,0 +1,25 @@
+{
+  "name": "weather-insurance-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized Weather Insurance dApp on QIE blockchain",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:verbose": "forge test -vvv",
+    "deploy:testnet": "forge script script/Deploy.s.sol --rpc-url qie_testnet --broadcast",
+    "deploy:mainnet": "forge script script/Deploy.s.sol --rpc-url qie_mainnet --broadcast",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:test": "cd frontend && npm test"
+  },
+  "keywords": [
+    "blockchain",
+    "insurance",
+    "defi",
+    "qie",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT"
+}

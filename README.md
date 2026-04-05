@@ -1,6 +1,6 @@
 # WeatherGuard
 
-The Decentralized Weather Insurance dApp is a blockchain-based parametric weather insurance platform built on QIE blochchain that enables users to purchase parametric weather insurance policies. The system leverages oracle-provided weather data to automatically execute insurance payouts when predefined conditions are met. This eliminates traditional insurance friction, reduces costs, and provides instant, trustless claim settlements. 
+The Decentralized Weather Insurance dApp is a blockchain-based parametric weather insurance platform built on QIE blockchain that enables users to purchase parametric weather insurance policies. The system leverages oracle-provided weather data to automatically execute insurance payouts when predefined conditions are met. This eliminates traditional insurance friction, reduces costs, and provides instant, trustless claim settlements. 
 
 Target users include farmers protecting crops, event organizers hedging against weather disruptions, and travelers seeking weather-related coverage. The system consists of three main smart contracts: the PolicyManager for handling insurance policies, the LiquidityPool for managing funds and liquidity providers, and the OracleConsumer for integrating weather data. 
 
